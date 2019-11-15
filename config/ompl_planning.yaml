@@ -146,8 +146,10 @@ vapp_arm:
     - LazyPRMstar
     - SPARS
     - SPARStwo
+  projection_evaluator: joints(vapp_robot_arm_shoulder_pan_joint,vapp_robot_arm_shoulder_lift_joint)
+  longest_valid_segment_fraction: 0.005
 vapp_gripper:
-  default_planner_config: None
+  default_planner_config: ""
   planner_configs:
     - SBL
     - EST

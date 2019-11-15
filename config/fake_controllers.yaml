@@ -9,4 +9,4 @@ controller_list:
       - vapp_robot_arm_wrist_3_joint
   - name: fake_vapp_gripper_controller
     joints:
-      - finger_joint
+      []

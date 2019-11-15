@@ -1,6 +1,6 @@
 <package>
 
-  <name>i3dr_vapp_moiveit_config</name>
+  <name>i3dr_vapp_moveit_config</name>
   <version>0.3.0</version>
   <description>
      An automatically generated package with all the configuration and launch files for using the ur10_robotiq_2f_85_robot with the MoveIt! Motion Planning Framework
@@ -27,6 +27,8 @@
   <run_depend>xacro</run_depend>
   <!-- This package is referenced in the warehouse launch files, but does not build out of the box at the moment. Commented the dependency until this works. -->
   <!-- <run_depend>warehouse_ros_mongo</run_depend> -->
-  ]
+  <build_depend>i3dr_vapp_control</build_depend>
+  <run_depend>i3dr_vapp_control</run_depend>
+
 
 </package>

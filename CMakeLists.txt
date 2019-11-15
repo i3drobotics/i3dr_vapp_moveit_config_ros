@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(i3dr_vapp_moiveit_config)
+project(i3dr_vapp_moveit_config)
 
 find_package(catkin REQUIRED)
 
