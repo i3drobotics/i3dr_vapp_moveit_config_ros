@@ -1,0 +1,12 @@
+controller_list:
+  - name: fake_vapp_arm_controller
+    joints:
+      - vapp_robot_arm_shoulder_pan_joint
+      - vapp_robot_arm_shoulder_lift_joint
+      - vapp_robot_arm_elbow_joint
+      - vapp_robot_arm_wrist_1_joint
+      - vapp_robot_arm_wrist_2_joint
+      - vapp_robot_arm_wrist_3_joint
+  - name: fake_vapp_gripper_controller
+    joints:
+      - finger_joint
